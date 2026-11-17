@@ -21,7 +21,6 @@ struct CarState {
     const Team *team = nullptr;
     bool uses_setup = false;
     bool changed = false;
-    Gears game{};
     Gears ours{};
 };
 
@@ -61,19 +60,17 @@ inline bool meet_car(uint32_t number, uintptr_t gearbox, CarState &state)
     return true;
 }
 
-inline void put_ours_on(uint32_t number, CarState &state, const Gears &now)
+inline void put_ours_on(uint32_t number, CarState &state)
 {
-    state.game = now;
     for (int gear = 0; gear < kGears; gear++) {
-        state.ours[gear] = state.game[gear] * state.team->change[gear];
+        state.ours[gear] = kGame2026Gears[gear] * state.team->change[gear];
     }
     if (!write_gears(state.gearbox, state.ours)) {
         log("[realistic-gear-ratios] car %u: couldn't write the gears", number);
         return;
     }
     state.changed = true;
-    log("[realistic-gear-ratios] car %u %s: %s (game %s)", number, state.team->name, gears_text(state.ours).c_str(),
-        gears_text(state.game).c_str());
+    log("[realistic-gear-ratios] car %u %s: %s", number, state.team->name, gears_text(state.ours).c_str());
 }
 
 inline void update_car(uint32_t number)
@@ -97,9 +94,13 @@ inline void update_car(uint32_t number)
         return;
     }
     if (state.changed) {
-        log("[realistic-gear-ratios] car %u: the game put its own gears back, changing them again", number);
+        // The game rebuilt the car: ask again which team it is, it may be another car now.
+        log("[realistic-gear-ratios] car %u: the game put other gears on, changing them again", number);
+        if (!meet_car(number, gearbox, state) || !state.team || state.uses_setup) {
+            return;
+        }
     }
-    put_ours_on(number, state, now);
+    put_ours_on(number, state);
 }
 
 } // namespace gear_ratios

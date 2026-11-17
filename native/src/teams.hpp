@@ -11,6 +11,10 @@ namespace gear_ratios {
 constexpr int kGears = 8;
 using GearChange = std::array<float, kGears>;
 
+// The gears the game gives every 2026 car, 1st to 8th. Our gears always start from these, never from what's on the
+// car, so a car that still carries an earlier car's gears can't get changed twice.
+constexpr std::array<float, kGears> kGame2026Gears = {3.480f, 2.620f, 2.100f, 1.740f, 1.475f, 1.275f, 1.120f, 1.000f};
+
 struct Team {
     const char *name;
     // Words the game's team key can contain for this team (the key looks like "ferrari_26").

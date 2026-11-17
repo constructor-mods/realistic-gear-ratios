@@ -10,7 +10,7 @@
   "kind": [
     "native"
   ],
-  "category": "cars",
+  "category": "ai",
   "icon": "icons/realistic-gear-ratios.png",
   "compat": {
     "game": "f1_25",
