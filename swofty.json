@@ -11,6 +11,7 @@
     "native"
   ],
   "category": "cars",
+  "icon": "icons/realistic-gear-ratios.png",
   "compat": {
     "game": "f1_25",
     "launcher": ">=1.9.61",
