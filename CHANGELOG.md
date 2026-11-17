@@ -2,5 +2,6 @@
 
 ## 0.1.0
 - First release.
-- Each 2026 team gets its own gear ratios in Grand Prix and Time Trial, for the player's car and the AI.
-- Setting: 2026 team gear ratios, on or off without a restart.
+- Every 2026 car gets its team's real gearing, the AI drivers' and your own, in every mode.
+- McLaren short, Audi the longest top gear, Mercedes long, Red Bull a long 1st, Ferrari in the middle.
+- Needs Swofty Launcher 1.9.61 or newer.

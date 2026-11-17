@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
-// Every car on the grid: which team it is, the game's own gears, and ours. Puts our gears on, puts them on again when
-// the game rebuilds a car, and puts the game's back when the setting is turned off.
+// Every car on the grid: which team it is, the game's own gears, and ours. Puts our gears on, and puts them on again
+// when the game rebuilds a car.
 #pragma once
 #include "gearbox.hpp"
 #include "teams.hpp"
@@ -76,17 +76,7 @@ inline void put_ours_on(uint32_t number, CarState &state, const Gears &now)
         gears_text(state.game).c_str());
 }
 
-inline void put_game_back(uint32_t number, CarState &state, const Gears &now)
-{
-    // If the game already rebuilt the car, its own gears are on it again.
-    if (same_gears(now, state.ours)) {
-        write_gears(state.gearbox, state.game);
-        log("[realistic-gear-ratios] car %u %s: back to the game's gears", number, state.team->name);
-    }
-    state.changed = false;
-}
-
-inline void update_car(uint32_t number, bool on)
+inline void update_car(uint32_t number)
 {
     CarState &state = g_cars[number];
     uintptr_t gearbox = gearbox_of(number);
@@ -101,12 +91,6 @@ inline void update_car(uint32_t number, bool on)
     }
     Gears now{};
     if (!read_gears(gearbox, now)) {
-        return;
-    }
-    if (!on) {
-        if (state.changed) {
-            put_game_back(number, state, now);
-        }
         return;
     }
     if (state.changed && same_gears(now, state.ours)) {

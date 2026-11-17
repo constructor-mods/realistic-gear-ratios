@@ -8,14 +8,19 @@ In F1 25 every 2026 car has the same eight gears. Realistic Gear Ratios gives ea
 - Mercedes, Williams and Alpine: long low gears and long top gears.
 - Audi: the widest spread, a short 1st and the longest 8th.
 - Your own car and every AI driver get their team's gears. The final drive stays the game's.
+- Works in every mode with the 2026 cars: Grand Prix, Time Trial, Driver Career and My Team. Older seasons keep the game's gears.
+- In My Team your own team keeps the game's gears for now; every other team gets its own.
 
 ### Settings
-- **2026 team gear ratios:** on gives every 2026 car its team's gears; off puts the game's own gears back. Works straight away, no restart.
+- None. Install it and every 2026 car has its team's gears.
 
 ### Needs
 - Swofty Launcher 1.9.61 or newer.
-- Grand Prix or Time Trial with the 2026 cars. Driver Career, My Team and other seasons are left alone.
+- The 2026 cars.
 - Offline sessions only, like all modded play.
+
+### Coming later
+- My Team: pick your team's gearing at the start of a season (short, balanced or long), held for the whole year like the real rule.
 
 ### Credits
 - Addon: msyeett
