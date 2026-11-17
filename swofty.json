@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "msyeett.realistic-gear-ratios",
+  "name": "Realistic Gear Ratios",
+  "version": "0.0.1",
+  "author": "msyeett",
+  "description": "Each 2026 team gets its own real gearing: McLaren short, Audi long, the rest in between.",
+  "license": "MIT",
+  "repository": "https://github.com/constructor-mods/realistic-gear-ratios",
+  "kind": [
+    "native"
+  ],
+  "category": "cars",
+  "compat": {
+    "game": "f1_25",
+    "launcher": ">=1.9.61",
+    "platforms": [
+      "steam"
+    ]
+  },
+  "requires": [
+    {
+      "id": "swofty.core",
+      "version": ">=0.1.0"
+    }
+  ],
+  "experimental_features": [
+    "telemetry"
+  ],
+  "options": [
+    {
+      "id": "team_gear_ratios",
+      "type": "toggle",
+      "label": "2026 team gear ratios",
+      "description": "On: every 2026 car gets its team's gearing in Grand Prix and Time Trial. Off: the game's own gears, the same for every team. Works straight away, no restart.",
+      "default": true,
+      "binds": "native"
+    }
+  ],
+  "operations": {
+    "native": [
+      {
+        "dll": "native/realistic_gear_ratios.dll"
+      }
+    ]
+  }
+}
