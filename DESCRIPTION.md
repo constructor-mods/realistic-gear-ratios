@@ -24,7 +24,6 @@ In F1 25 every 2026 car has the same eight gears. Realistic Gear Ratios gives ea
 
 ### Credits
 - Addon: msyeett
-- Idea: msyeett
 - Swofty Launcher: Swofty
 
 Unofficial fan addon, not affiliated with or endorsed by EA, Codemasters or Formula 1. Found a bug or something that looks off? Let me know on the Discord.
