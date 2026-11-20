@@ -8,5 +8,3 @@ grid: McLaren runs short gears, Audi the longest top gear, Mercedes long gears a
   alone, and so is your own team in My Team (for now). No settings.
 
 Offline only. Needs Swofty Launcher 1.9.61 or newer.
-
-Built with the Swofty Launcher SDK (MIT, Copyright (c) 2026 Jacob Nardella).

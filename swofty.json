@@ -2,13 +2,13 @@
   "schema_version": 1,
   "id": "msyeett.realistic-gear-ratios",
   "name": "Realistic Gear Ratios",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "msyeett",
   "description": "Each 2026 team gets its own real gearing: McLaren short, Audi long, the rest in between.",
   "license": "MIT",
   "repository": "https://github.com/constructor-mods/realistic-gear-ratios",
   "kind": [
-    "native"
+    "erp"
   ],
   "category": "ai",
   "icon": "icons/realistic-gear-ratios.png",
@@ -17,22 +17,6 @@
     "launcher": ">=1.9.61",
     "platforms": [
       "steam"
-    ]
-  },
-  "requires": [
-    {
-      "id": "swofty.core",
-      "version": ">=0.1.0"
-    }
-  ],
-  "experimental_features": [
-    "telemetry"
-  ],
-  "operations": {
-    "native": [
-      {
-        "dll": "native/realistic_gear_ratios.dll"
-      }
     ]
   }
 }

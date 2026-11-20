@@ -8,6 +8,7 @@ In F1 25 every 2026 car has the same eight gears. Realistic Gear Ratios gives ea
 - Mercedes, Williams and Alpine: long low gears and long top gears.
 - Audi: the widest spread, a short 1st and the longest 8th.
 - Your own car and every AI driver get their team's gears. The final drive stays the game's.
+- The gears are written into each team's handling files when you press Play; nothing runs while you drive.
 - Works in every mode with the 2026 cars: Grand Prix, Time Trial, Driver Career and My Team. Older seasons keep the game's gears.
 - In My Team your own team keeps the game's gears for now; every other team gets its own.
 

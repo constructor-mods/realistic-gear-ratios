@@ -1,9 +1,9 @@
 # Makes the two release files in release\: msyeett.realistic-gear-ratios-<version>.swoftyaddon and the same as .zip.
-# Double-click package.bat in the repo (it builds the DLL first). GitHub runs this too when a version tag is pushed.
+# Double-click package.bat in the repo. GitHub runs this too when a version tag is pushed.
 $ErrorActionPreference = 'Stop'
 $root = Split-Path -Parent $PSScriptRoot
 $manifest = Get-Content (Join-Path $root 'swofty.json') -Raw | ConvertFrom-Json
-$files = @('swofty.json', 'README.md', 'LICENSE', 'CHANGELOG.md', 'native/realistic_gear_ratios.dll')
+$files = @('swofty.json', 'README.md', 'LICENSE', 'CHANGELOG.md', 'registry/handling.json')
 if ($manifest.icon) { $files += $manifest.icon }
 foreach ($f in $files) {
     if (-not (Test-Path (Join-Path $root $f))) { throw "missing $f" }

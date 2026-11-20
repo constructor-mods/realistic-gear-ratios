@@ -1,0 +1,378 @@
+{
+  "vehicle.handling": {
+    "gears_2026_force_india": {
+      "vtf": {
+        "stock": "2025_asset_groups/f1_2026_vehicle_package/teams/force_india/wep/force_india.erp"
+      },
+      "gearbox": {
+        "ratios": [
+          3.5322,
+          2.6593,
+          2.1315,
+          1.7574,
+          1.4824,
+          1.275,
+          1.12,
+          1.0
+        ]
+      }
+    },
+    "gears_2026_force_india_monaco_2026": {
+      "vtf": {
+        "stock": "2025_asset_groups/f1_2026_vehicle_package/teams/force_india/wep/force_india_monaco_2026.erp"
+      },
+      "gearbox": {
+        "ratios": [
+          3.5322,
+          2.6593,
+          2.1315,
+          1.7574,
+          1.4824,
+          1.275,
+          1.12,
+          1.0
+        ]
+      }
+    },
+    "gears_2026_force_india_monaco_26": {
+      "vtf": {
+        "stock": "2025_asset_groups/f1_2026_vehicle_package/teams/force_india/wep/force_india_monaco_26.erp"
+      },
+      "gearbox": {
+        "ratios": [
+          3.5322,
+          2.6593,
+          2.1315,
+          1.7574,
+          1.4824,
+          1.275,
+          1.12,
+          1.0
+        ]
+      }
+    },
+    "gears_2026_lotus": {
+      "vtf": {
+        "stock": "2025_asset_groups/f1_2026_vehicle_package/teams/lotus/wep/lotus.erp"
+      },
+      "gearbox": {
+        "ratios": [
+          3.3756,
+          2.5414,
+          2.037,
+          1.6965,
+          1.444,
+          1.2546,
+          1.1021,
+          0.984
+        ]
+      }
+    },
+    "gears_2026_mclaren": {
+      "vtf": {
+        "stock": "2025_asset_groups/f1_2026_vehicle_package/teams/mclaren/wep/mclaren.erp"
+      },
+      "gearbox": {
+        "ratios": [
+          3.5844,
+          2.6986,
+          2.163,
+          1.7992,
+          1.5311,
+          1.3285,
+          1.167,
+          1.042
+        ]
+      }
+    },
+    "gears_2026_mclaren_monaco_26": {
+      "vtf": {
+        "stock": "2025_asset_groups/f1_2026_vehicle_package/teams/mclaren/wep/mclaren_monaco_26.erp"
+      },
+      "gearbox": {
+        "ratios": [
+          3.5844,
+          2.6986,
+          2.163,
+          1.7992,
+          1.5311,
+          1.3285,
+          1.167,
+          1.042
+        ]
+      }
+    },
+    "gears_2026_mclaren_silverstone_25": {
+      "vtf": {
+        "stock": "2025_asset_groups/f1_2026_vehicle_package/teams/mclaren/wep/mclaren_silverstone_25.erp"
+      },
+      "gearbox": {
+        "ratios": [
+          3.5844,
+          2.6986,
+          2.163,
+          1.7992,
+          1.5311,
+          1.3285,
+          1.167,
+          1.042
+        ]
+      }
+    },
+    "gears_2026_mclaren_silverstone_26": {
+      "vtf": {
+        "stock": "2025_asset_groups/f1_2026_vehicle_package/teams/mclaren/wep/mclaren_silverstone_26.erp"
+      },
+      "gearbox": {
+        "ratios": [
+          3.5844,
+          2.6986,
+          2.163,
+          1.7992,
+          1.5311,
+          1.3285,
+          1.167,
+          1.042
+        ]
+      }
+    },
+    "gears_2026_mercedes": {
+      "vtf": {
+        "stock": "2025_asset_groups/f1_2026_vehicle_package/teams/mercedes/wep/mercedes.erp"
+      },
+      "gearbox": {
+        "ratios": [
+          3.3756,
+          2.5414,
+          2.037,
+          1.6965,
+          1.444,
+          1.2546,
+          1.1021,
+          0.984
+        ]
+      }
+    },
+    "gears_2026_redbull": {
+      "vtf": {
+        "stock": "2025_asset_groups/f1_2026_vehicle_package/teams/redbull/wep/redbull.erp"
+      },
+      "gearbox": {
+        "ratios": [
+          3.2364,
+          2.5414,
+          2.1,
+          1.74,
+          1.4942,
+          1.3094,
+          1.1502,
+          1.027
+        ]
+      }
+    },
+    "gears_2026_redbull_suzuka_25": {
+      "vtf": {
+        "stock": "2025_asset_groups/f1_2026_vehicle_package/teams/redbull/wep/redbull_suzuka_25.erp"
+      },
+      "gearbox": {
+        "ratios": [
+          3.2364,
+          2.5414,
+          2.1,
+          1.74,
+          1.4942,
+          1.3094,
+          1.1502,
+          1.027
+        ]
+      }
+    },
+    "gears_2026_sauber": {
+      "vtf": {
+        "stock": "2025_asset_groups/f1_2026_vehicle_package/teams/sauber/wep/sauber.erp"
+      },
+      "gearbox": {
+        "ratios": [
+          3.5844,
+          2.6986,
+          2.163,
+          1.74,
+          1.4307,
+          1.1985,
+          1.0528,
+          0.94
+        ]
+      }
+    },
+    "gears_2026_sauber_barcelona_25": {
+      "vtf": {
+        "stock": "2025_asset_groups/f1_2026_vehicle_package/teams/sauber/wep/sauber_barcelona_25.erp"
+      },
+      "gearbox": {
+        "ratios": [
+          3.5844,
+          2.6986,
+          2.163,
+          1.74,
+          1.4307,
+          1.1985,
+          1.0528,
+          0.94
+        ]
+      }
+    },
+    "gears_2026_sauber_miami_25": {
+      "vtf": {
+        "stock": "2025_asset_groups/f1_2026_vehicle_package/teams/sauber/wep/sauber_miami_25.erp"
+      },
+      "gearbox": {
+        "ratios": [
+          3.5844,
+          2.6986,
+          2.163,
+          1.74,
+          1.4307,
+          1.1985,
+          1.0528,
+          0.94
+        ]
+      }
+    },
+    "gears_2026_sauber_monaco_26": {
+      "vtf": {
+        "stock": "2025_asset_groups/f1_2026_vehicle_package/teams/sauber/wep/sauber_monaco_26.erp"
+      },
+      "gearbox": {
+        "ratios": [
+          3.5844,
+          2.6986,
+          2.163,
+          1.74,
+          1.4307,
+          1.1985,
+          1.0528,
+          0.94
+        ]
+      }
+    },
+    "gears_2026_toro_rosso": {
+      "vtf": {
+        "stock": "2025_asset_groups/f1_2026_vehicle_package/teams/toro_rosso/wep/toro_rosso.erp"
+      },
+      "gearbox": {
+        "ratios": [
+          3.2364,
+          2.5414,
+          2.1,
+          1.74,
+          1.4942,
+          1.3094,
+          1.1502,
+          1.027
+        ]
+      }
+    },
+    "gears_2026_toro_rosso_barcelona_26": {
+      "vtf": {
+        "stock": "2025_asset_groups/f1_2026_vehicle_package/teams/toro_rosso/wep/toro_rosso_barcelona_26.erp"
+      },
+      "gearbox": {
+        "ratios": [
+          3.2364,
+          2.5414,
+          2.1,
+          1.74,
+          1.4942,
+          1.3094,
+          1.1502,
+          1.027
+        ]
+      }
+    },
+    "gears_2026_toro_rosso_miami_25": {
+      "vtf": {
+        "stock": "2025_asset_groups/f1_2026_vehicle_package/teams/toro_rosso/wep/toro_rosso_miami_25.erp"
+      },
+      "gearbox": {
+        "ratios": [
+          3.2364,
+          2.5414,
+          2.1,
+          1.74,
+          1.4942,
+          1.3094,
+          1.1502,
+          1.027
+        ]
+      }
+    },
+    "gears_2026_toro_rosso_miami_26": {
+      "vtf": {
+        "stock": "2025_asset_groups/f1_2026_vehicle_package/teams/toro_rosso/wep/toro_rosso_miami_26.erp"
+      },
+      "gearbox": {
+        "ratios": [
+          3.2364,
+          2.5414,
+          2.1,
+          1.74,
+          1.4942,
+          1.3094,
+          1.1502,
+          1.027
+        ]
+      }
+    },
+    "gears_2026_toro_rosso_silverstone_25": {
+      "vtf": {
+        "stock": "2025_asset_groups/f1_2026_vehicle_package/teams/toro_rosso/wep/toro_rosso_silverstone_25.erp"
+      },
+      "gearbox": {
+        "ratios": [
+          3.2364,
+          2.5414,
+          2.1,
+          1.74,
+          1.4942,
+          1.3094,
+          1.1502,
+          1.027
+        ]
+      }
+    },
+    "gears_2026_toro_rosso_suzuka_26": {
+      "vtf": {
+        "stock": "2025_asset_groups/f1_2026_vehicle_package/teams/toro_rosso/wep/toro_rosso_suzuka_26.erp"
+      },
+      "gearbox": {
+        "ratios": [
+          3.2364,
+          2.5414,
+          2.1,
+          1.74,
+          1.4942,
+          1.3094,
+          1.1502,
+          1.027
+        ]
+      }
+    },
+    "gears_2026_williams": {
+      "vtf": {
+        "stock": "2025_asset_groups/f1_2026_vehicle_package/teams/williams/wep/williams.erp"
+      },
+      "gearbox": {
+        "ratios": [
+          3.3756,
+          2.5414,
+          2.037,
+          1.6965,
+          1.444,
+          1.2546,
+          1.1021,
+          0.984
+        ]
+      }
+    }
+  }
+}
